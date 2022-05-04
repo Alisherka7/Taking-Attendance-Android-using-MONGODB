@@ -1,3 +1,16 @@
 {
-    "development_mode_enabled": false
+    "type": "partition",
+    "state": "disabled",
+    "development_mode_enabled": false,
+    "service_name": "mongodb-atlas",
+    "last_disabled": 1651673686,
+    "partition": {
+        "key": "12345678",
+        "type": "string",
+        "required": true,
+        "permissions": {
+            "read": {},
+            "write": {}
+        }
+    }
 }
